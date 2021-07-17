@@ -1,5 +1,4 @@
 <?php
-$color="wihite";
-$plants="rose";
-$color ." ". $plants;
-var_export(1 === true);
+echo 7%3 . "<br>";
+
+echo (int) (7+7.15);
