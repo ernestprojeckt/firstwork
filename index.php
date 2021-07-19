@@ -39,12 +39,14 @@ if (false === 0) {
 } else {
     echo "false". "<br>";;
 }
+$word1 = mb_strlen(three);
+$word2 = mb_strlen(три);
 
 echo "Equation (three long три ) = ";
-if (three < три) {
+if ($word1 < $word2) {
     echo "true". "<br>";
 } else {
-    echo "false". "<br>";
+   echo "false". "<br>";
 }
 
 $example = 125*13+7;
