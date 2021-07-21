@@ -14,7 +14,7 @@ $string = "Десять негритят пошли купаться в море
 $array = explode(" ",$string);
 echo "4 word from string = ". $array[3]. "<br>" ;
 
-$charstring=mb_substr($string,17,1);
+$charstring=mb_substr($string,16,1);
 echo "17 char opn string = " . $charstring . "<br>";
 
 $Capitalletters = mb_convert_case($string, MB_CASE_TITLE, 'UTF-8'). PHP_EOL;
